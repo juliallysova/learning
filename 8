@@ -1,0 +1,20 @@
+let user = {
+    username: "Leo", 
+    status: "Online",
+    lastActivity: 30,
+    
+};
+console.log (user)
+console.log(user.username)
+console.log(user.lastActivity)
+user.password = "";
+console.log (user)
+delete user.lastActivity
+user.address  = {
+    state: 'CA',
+    city: 'San Diego',
+    index: '188660',
+}
+console.log (user)
+user.address.city = "Philadelfia"
+console.log (user)
