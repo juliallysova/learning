@@ -1,0 +1,6 @@
+let age = 32;
+if (age > 5 && age < 18) {
+    console.log ('школьник')
+} else {
+   сonsole.log ('не школьник')
+}
