@@ -1,0 +1,8 @@
+let price = 100;
+if (price === 0) {
+  console.log('Is it free?');
+} else if (price > 0) {
+  console.log('How much?');
+} else { // что означает price < 0
+  console.log('Negative?');
+}
