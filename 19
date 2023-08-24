@@ -1,0 +1,6 @@
+let dayOfWeek = 1
+if (dayOfWeek <= 5) {
+    console.log ('work day')
+} else if ( dayOfWeek >= 7) {
+    console.log ('weekend')
+}
