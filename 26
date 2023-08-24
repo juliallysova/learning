@@ -1,0 +1,3 @@
+let a = -10
+let absValue = (Math.abs(a))
+console.log (absValue)
