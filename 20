@@ -1,0 +1,10 @@
+let age = 30;
+if (age >= 8 ) {
+    console.log ('стоимость завтрака 10 евро');
+} else if (age >= 12 || age <= 17) {
+    console.log ('стоимость завтрака 6 евро');
+} else if (age <= 6 || age >= 12) {
+    console.log ('стоимость завтрака 4 евро');
+} else {
+    console.log ('стоимость завтрака бесплатно');
+}
