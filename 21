@@ -1,0 +1,10 @@
+let x = 25
+let y = 20
+let z = 5
+if (x > y) {
+    console.log ('x - наибольшее')
+} else if (z > x) {
+    console.log ('z-наибольшее')
+} else {
+    console.log ('y- наибольшее')
+}
