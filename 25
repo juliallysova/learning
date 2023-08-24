@@ -1,0 +1,3 @@
+let z = 'sdafd'
+let isString = (typeof z === 'string') ? 'z - строка' : 'z - не строка'
+console.log (isString)
