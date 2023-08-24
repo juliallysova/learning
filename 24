@@ -1,0 +1,3 @@
+let y = 7
+isEven = (y % 2 === 0) ? 'у - четное' : 'y - нечетное'
+console.log (isEven)
