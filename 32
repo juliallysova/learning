@@ -1,0 +1,3 @@
+let fruits = ["Яблоко", "Апельсин"];
+fruits.push("Груша");
+alert( fruits ); 
