@@ -1,0 +1,11 @@
+let arr=[]
+for (let i = 1; i < 6; i++){
+    arr.push(i)
+}
+for (let i = 20; i < 31; i++){
+    arr.push(i)
+}
+arr.shift()
+arr.shift()
+arr.shift()
+console.log(arr)
