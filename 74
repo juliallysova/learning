@@ -1,0 +1,6 @@
+const arr = [];
+for (let i = 30; i > 9 ; i = i-1){
+    if (i % 2 === 0)
+    arr.push(i)
+}
+console.log(arr)
