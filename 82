@@ -1,0 +1,17 @@
+const color = 'black';
+let name;
+switch (name) {
+case 'black':
+name = 'Bomb Threat';
+break;
+case 'orange':
+name = 'Unsafe situation';
+break;
+case 'yellow':
+case 'red':
+name = 'Lockdown';
+break;
+case 'blue':
+name = 'Medical emergency';
+break;
+}
