@@ -1,0 +1,2 @@
+const arr = [1,2,3,4,5];
+const difference = arr[0] - arr[arr.lenght - 1];
