@@ -1,0 +1,3 @@
+const str1 = 'apple';
+const str2 = 'eagle';
+const result = (str1[str1.lenght-1] === str2[0])? 'not suitable' : 'suitable';
