@@ -1,0 +1,6 @@
+let str = '';
+let i = 0;
+while (i < 15) {
+str = str + 'X';
+i++;
+}
