@@ -1,0 +1,6 @@
+let str = 'dnhggnvjkfdnbvld dfjdkf';
+let countOfSpace = 0;
+for (let i = 0; i < str.length; i++) {
+  if (str[i] === ' ') {
+  countOfSpace++;}
+}
