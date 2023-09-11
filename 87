@@ -1,0 +1,6 @@
+let product = 1;
+let x = 0.3;
+while (x <= 3) {
+product = product * x;
+x = x + 0.3;
+}
