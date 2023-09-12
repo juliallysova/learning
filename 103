@@ -1,0 +1,3 @@
+function bodyMassIndex(weight, height){
+return (weight) / height ** 2;
+}
