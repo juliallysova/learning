@@ -1,0 +1,3 @@
+function positive(num){
+return Math.abs(num);
+}
