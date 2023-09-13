@@ -1,0 +1,3 @@
+function lastDigit(number){
+  return number % 10;
+}
