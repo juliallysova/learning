@@ -1,0 +1,6 @@
+  Выведите в консоль массив, который содержит значения роста в inch
+let height = [158, 160, 165, 168, 170, 175, 178, 180];
+for (let i = 0; i < height.length; i++) {
+  height[i] =  (height[i] / 2.54).toFixed(2)
+}
+console.log (height)
