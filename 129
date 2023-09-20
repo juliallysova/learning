@@ -1,0 +1,10 @@
+let row = 'pull up if i pull up' 
+let rowBack = ''
+for (let i = 0; i < row.length; i++) {
+  if (row[i] === ' ') {
+  }
+  else {
+    rowBack = row[i] + rowBack
+  }
+}
+console.log(rowBack === row)
