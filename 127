@@ -1,0 +1,7 @@
+let str = 'student'
+let result = ''
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i])
+  result = result + str[i] + ' '
+}
+console.log (result)
