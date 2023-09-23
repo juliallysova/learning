@@ -1,0 +1,7 @@
+function inequalitiesAreFulfilled(a, b){
+if (a > 2 && b <= 3){
+return true
+} else {
+return false
+}
+}
