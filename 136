@@ -1,0 +1,4 @@
+function power(num, n){
+num = num ** n;
+return num;
+}
