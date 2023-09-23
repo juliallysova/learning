@@ -1,0 +1,4 @@
+function average(a, b){
+let average = (a + b) / 2;
+return average.toFixed(2);
+}
