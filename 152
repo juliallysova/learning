@@ -1,0 +1,7 @@
+function isTwoDigitEvenNumber(num){
+if (num >= 10 && num <= 99 && num % 2 == 0) {
+return true;
+} else {
+return false;
+}
+}
