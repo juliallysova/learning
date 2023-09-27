@@ -1,0 +1,13 @@
+function numberDescription(num){
+if (num % 2 == 0 && num < 0) {
+return 'negative even number';
+} else if (num % 2 !== 0 && num < 0) {
+return 'negative odd number';
+} else if (num % 2 == 0 && num > 0) {
+return 'positive even number';
+} else if (num % 2 !== 0 && num > 0){
+return 'positive odd number'; 
+} else if (num == 0) {
+return 'zero number'; 
+}
+}
