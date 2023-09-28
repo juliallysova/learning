@@ -1,0 +1,7 @@
+function dayOfWeek(day){
+if (day == 6 || day == 7) {
+return "You can get some sleep";
+} else {
+return "Time to get up for work";
+}
+}
