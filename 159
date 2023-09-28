@@ -1,0 +1,7 @@
+function flagColors(color){
+if (color == 'red' || color == 'navy' || color == 'white') {
+return "This color is on the flag";
+} else {
+return "This color is not on the flag";
+}
+}
