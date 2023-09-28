@@ -1,0 +1,7 @@
+function nameStartsWithA(str1, str2, str3){
+if (str1[0] == 'A' || str2[0] == 'A'|| str3[0] == 'A'){
+return 'Yes';
+} else {
+return 'No';
+}
+}
