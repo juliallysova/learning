@@ -1,0 +1,7 @@
+function sweetSeason(month){
+if (month == 2 || month == 10 || month == 12){
+return "Time to buy sweets";
+} else {
+return "Not the time to buy sweets";
+}
+}
