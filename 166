@@ -1,0 +1,11 @@
+function newValues(a, b){
+if (a !== b){
+let newA = a + b;
+let newB = a - b;
+return [newA,newB]
+} else if (a == b) {
+let newA = 0;
+let newB = 0;
+return [newA,newB]
+}
+}
