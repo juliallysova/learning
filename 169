@@ -1,0 +1,4 @@
+function changeNumber(num){
+num % 2 == 0 ? num = num * 2 : num = num * 3;
+return (num);
+}
