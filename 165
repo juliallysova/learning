@@ -1,0 +1,18 @@
+function newValues(a, b){
+if (a !== b) {
+if (a > b) {
+let newA = a;
+let newB = a;
+return [newA, newB];
+} else if (a < b) {
+let newA = b;
+let newB = b;
+return [newA, newB];
+}
+return [newA, newB];
+} else if (a == b) {
+let newA = 0;
+let newB = 0;
+return [newA, newB];
+}
+}
