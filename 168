@@ -1,0 +1,7 @@
+function moneyInCash(money){
+if (money !== 0) {
+return true;
+} else {
+return false;
+}
+}
