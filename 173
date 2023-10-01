@@ -1,0 +1,9 @@
+function sumOfOdd(n){
+let x = 1;
+let sum = 0;
+  while( x <= n && x % 2 === 1){
+    sum += x
+    x +=2
+   }
+  return sum;
+}
