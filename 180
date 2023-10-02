@@ -1,0 +1,3 @@
+function isArgNaN(value){
+return isNaN(value)? NaN : value
+}
