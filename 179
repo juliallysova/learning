@@ -1,0 +1,7 @@
+function isValid(value){
+if (Number.isNaN(value) == 'NaN'){
+return 'Value is not a number'
+} else {
+return 'Value is valid'
+}
+}
