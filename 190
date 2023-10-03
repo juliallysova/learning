@@ -1,0 +1,3 @@
+function expression(a, b, c){
+return +(Math.sqrt(a) + (Math.sqrt(Math.abs(b - c)) / (Math.pow(a, 3) + Math.pow(b, 2) + Math.pow(c, 4)))).toFixed(2);
+}
