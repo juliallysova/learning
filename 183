@@ -1,0 +1,4 @@
+function expressionValue(a, b, c){
+let value = (Math.abs(a - c) + Math.abs(b - c)) / Math.abs(a + b + c)
+return Math.round(value * 100) / 100;
+}
