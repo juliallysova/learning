@@ -1,0 +1,5 @@
+function squareOfHypotenuse(a, b){
+let hyp = Math.pow(a, 2) + Math.pow(b, 2);
+hyp == Math.sqrt(hyp)
+return hyp;
+}
