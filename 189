@@ -1,0 +1,7 @@
+function isSquare(x){
+if (Math.sqrt(x) % 1 === 0) {
+return x + ' is square of ' + Math.sqrt(x);
+} else {
+return x + ' is not a square';
+}
+}
