@@ -1,0 +1,8 @@
+function absValue(x){
+if (x > 0) {
+x = x;
+} else if (x < 0) {
+x = x * (-1);
+}
+return x
+}
