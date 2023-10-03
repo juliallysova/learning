@@ -1,0 +1,7 @@
+function squareRoot(x){
+if (x >= 0) {
+return +Math.sqrt(x).toFixed(2);
+} else {
+return "Root of a negative number is NaN";
+}
+}
