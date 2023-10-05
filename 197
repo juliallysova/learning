@@ -1,0 +1,3 @@
+function countOfRugs(a, b){
+return Math.floor(a / b)
+}
