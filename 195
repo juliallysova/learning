@@ -1,0 +1,3 @@
+function weightInTons(m){
+return Math.floor(m/1000)
+}
