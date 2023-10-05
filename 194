@@ -1,0 +1,3 @@
+function distanceInMeters(length){
+return Math.floor(length/100)
+}
