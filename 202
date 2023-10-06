@@ -1,0 +1,3 @@
+function quotient(a, b){
+return Math.round(a/b)
+}
