@@ -1,0 +1,3 @@
+function officeRooms(k, number){
+return Math.ceil(number/k)
+}
