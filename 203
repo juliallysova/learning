@@ -1,0 +1,3 @@
+function forceOfGravity(m){
+return Math.round(m * 9.81)
+}
