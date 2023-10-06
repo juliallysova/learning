@@ -1,0 +1,3 @@
+function amountOfMinutes(n){
+return Math.floor(n/60)
+}
