@@ -1,0 +1,5 @@
+function minValue(a, b){
+let value1 = a + b;
+let value2 = a - b;
+return Math.min(value1,value2)
+}
