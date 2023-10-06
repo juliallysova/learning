@@ -1,0 +1,3 @@
+function bears(bearWeight, elephantWeight){
+return Math.ceil(elephantWeight/bearWeight)
+}
