@@ -1,0 +1,7 @@
+function createArrayFromNToM(n, m){
+let arr = []
+for (let i = n; i <= m; i++) {
+arr.push(i)
+}
+return arr
+}
