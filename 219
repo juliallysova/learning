@@ -1,0 +1,7 @@
+function createArray(n, m){
+let arr = []
+for (i = 1; i <= n; i++){
+arr.push(m)
+}
+return arr
+}
