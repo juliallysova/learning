@@ -1,0 +1,7 @@
+function createNegativeArray(n){
+let arr = []
+for (let i = 1; i <= n; i++) {
+arr.push(i * (-1))
+}
+return arr
+}
