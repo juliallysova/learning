@@ -1,0 +1,7 @@
+function changeArray(prices){
+  const arr = [];
+  for(let i = 0; i< prices.length;i++){
+  const newPrice = prices[i]* 2;
+  arr.push(newPrice);
+  } return arr;
+}
