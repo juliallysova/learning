@@ -1,0 +1,8 @@
+function productOfElements(arr){
+if(arr.length === 0) return 0;
+let proizved = 1
+for (let i=0; i < arr.length; i++){
+proizved = proizved * arr[i];
+}
+return proizved
+}
