@@ -1,0 +1,9 @@
+function squares(arr){
+let sum = 0;
+let razn = 0;
+for (let i = 0; i < arr.length; i++){
+sum = sum + arr[i]
+razn = razn + arr[i]**2
+}
+return sum**2 - razn
+}
