@@ -1,0 +1,9 @@
+function maxAbsValue(arr){
+let max = arr[0]
+for (let i = 0; i< arr.length; i++) {
+if (Math.abs(arr[i]) > Math.abs(max)) {
+max = arr[i]
+} 
+}
+return max
+}
