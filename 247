@@ -1,0 +1,16 @@
+function changeMaxAndMin(arr){
+  let min = 0;
+  let max = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < arr[min]) {
+      min = i;
+    }
+    if (arr[i] > arr[max]) {
+      max = i;
+    }
+  }
+  let tmp = arr[min];
+  arr[min] = arr[max];
+  arr[max] = tmp;
+  return arr;
+}
