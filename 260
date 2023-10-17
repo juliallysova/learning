@@ -1,0 +1,12 @@
+function separateEvenAndOdd(arr){
+const numEven = []
+const numOdd = []
+for (let i=0; i < arr.length; i++){
+if (arr[i] % 2 == 0){
+numEven.push(arr[i])
+} else if (arr[i] % 2 !== 0) {
+numOdd.push(arr[i])
+}
+}
+return [numEven,numOdd]
+}
