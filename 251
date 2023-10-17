@@ -1,0 +1,4 @@
+function addValue(arr, value){
+arr.push(value)
+return arr.length;
+}
