@@ -1,0 +1,7 @@
+function includeZero(arr){
+if (arr.includes(0)) {
+return true
+} else {
+return false
+}
+}
