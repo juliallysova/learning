@@ -1,0 +1,4 @@
+function deleteFromEnd(arr){
+arr.pop()
+return arr
+}
