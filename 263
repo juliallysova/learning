@@ -1,0 +1,3 @@
+function deleteFromEnd(arr){
+return [arr,arr.pop()]
+}
