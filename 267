@@ -1,0 +1,4 @@
+function three(){
+const arr=['a','b','c','d']
+return arr.indexOf('d')
+}
