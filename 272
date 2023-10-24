@@ -1,0 +1,4 @@
+function fixTheMeerkat(arr) {
+ var n = arr.reverse()
+ return n
+}
