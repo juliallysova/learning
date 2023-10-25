@@ -1,0 +1,2 @@
+const arr2 = [undefined, 'c', 'o', 'd', 'e', null];
+console.log(arr2.join('?'));
