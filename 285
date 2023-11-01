@@ -1,0 +1,3 @@
+function insertSpaces(str){
+return str.split('').join(' ');
+}
