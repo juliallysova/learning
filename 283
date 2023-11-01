@@ -1,0 +1,6 @@
+function getCharacter(str, n){
+if(str.length > n && n !== -1){
+return str[n];
+}
+return "Error";
+}
