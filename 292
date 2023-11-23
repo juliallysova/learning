@@ -1,0 +1,4 @@
+function duplicates(arr) {
+const duplicates = arr.filter(el => arr.indexOf(el) !== arr.lastIndexOf(el));
+return duplicates; 
+}
