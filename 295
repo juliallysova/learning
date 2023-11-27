@@ -1,0 +1,5 @@
+function twoOldestAges(ages){
+  ages.sort((a, b) => b - a)
+  const newAges = [ages[1],ages[0]]
+  return newAges
+}
